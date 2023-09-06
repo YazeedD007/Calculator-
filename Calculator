@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main()
+{ 
+    int x;
+    //نعرف المتغير X//
+    printf("please enter the first number");
+    //نطبع عبارة الرجاء ادخال الرقم الاول//
+scanf("%d",&x);
+//المدخل X//
+    printf("the first number is %d",x);
+    //نطبع عبارة الرقم هو://
+    int y;
+    //نعرف المتغير Y//
+    printf("\n please enter the second number");
+    //نطبع عبارة الرجاء ادخال الرقم الثاني//
+    scanf("%d",&y);
+    //المدخل Y//
+    printf("\n the second number is %d",y);
+    //نطبع عبارة الرقم الثاني هو://
+    int sum;
+    //نعرف عملية الجمع//
+    int mul;
+    //نعرف عملية الضرب//
+    int sub;
+    //نعرف عملية الطرح//
+    int divi;
+    // نعرف عملية القسمة//
+    sum =(x+y);
+    //اضافة عملية الجمع للمتغير//
+    mul =(x*y);
+    //اضافة عملية الضرب للمتغير//
+    sub =(x-y);
+    //اضافة عملية الطرح للمتغير//
+    divi =(x/y);
+    //اضافة عملية القسمة للمتغير//
+    printf("\n the subtraction is: %d", sum);
+    //نضيف \n لسطر جديد و نطبع ناتج الجمع هو: و نضيف المتغير//
+    printf("\n the multiplication is: %d", mul);
+    //نفس الخطوة السابقة لجميع العمليات باضافة المتغير الصحيح لكل عملية//
+    printf("\n the subtract is: %d",sub);
+    printf("\nthe division is: %d",divi);
+}
